@@ -11,6 +11,7 @@ a{
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
+    color: white;
 }
 ::-webkit-scrollbar{
     width: 0;
@@ -25,7 +26,7 @@ header{
 header nav a{
     margin: 0 30px;
     color: var(--color);
-    font-size: small;
+    font-size: large;
 }
 
 .tab{
@@ -33,7 +34,7 @@ header nav a{
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url(images/bg.png);
+    /* background-image: url(images/6.gif); */
     background-size: 50%;
 }
 .tab .container{
@@ -66,7 +67,7 @@ header nav a{
 }
 #intro .content .name,
 #intro .content .job{
-    font-size: 6em;
+    font-size: 5em;
     font-weight: bold;
     font-family: 'Righteous', sans-serif;
     line-height: 1em;
@@ -81,7 +82,8 @@ header nav a{
 }
 #intro .content .des{
     margin-top: 1.2em;
-    width: 70%;
+    width: 100%;
+    font-size: large;
 }
 #intro .content .des a{
     margin-top: 1.2em;
@@ -203,9 +205,11 @@ header nav a{
     );
     background-size: cover;
 }
+
+
 #experience .list{
     height: 100%;
-    width: max-content;
+    width: 80%;
     display: flex;
     justify-content: left;
     box-sizing: border-box;
@@ -219,6 +223,7 @@ header nav a{
     gap: 20px;
     width: 200px;
     flex-shrink: 0;
+    justify-content: center;
 }
 #experience .list .item i{
     background-color: #444B57;
@@ -299,6 +304,9 @@ header nav a{
     margin: 10px 30px;
 }
 
+.seeIntro {
+    margin-top: 20px;
+}
 
 @media screen and (max-width: 991px){
     /* ipad, tablets */
